@@ -5,6 +5,7 @@ root = Tk()
 root.title('Gestor de Tareas')
 root.geometry('400x400')
 
+root.background= '#ffffff'
 conn = sqlite3.connect('todo.db')
 
 c = conn.cursor()
